@@ -1,13 +1,16 @@
 package com.leet.code.leetcode.util;
 
+import lombok.Data;
+
+@Data
 public class ListNode {
-    int val;
-    ListNode next;
+    public int val;
+    public ListNode next;
 
     ListNode() {
     }
 
-    ListNode(int val) {
+    public ListNode(int val) {
         this.val = val;
     }
 
